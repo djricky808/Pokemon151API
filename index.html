@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon 151</title>
+  <script src="https://kit.fontawesome.com/181436aecb.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/types.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="title">
+    <div class="pokeball">
+      <div class="pokeballcenter"></div>
+      <div class="pokeballline"></div>
+    </div>
+    <h1>Pokemon 151</h1>
+  </div>
+  <div class="sortBar">
+    <label for="sortPokemonBy">Sort Pokemon By</label>
+    <select name="sortPokemonBy" id="sortPokemonBy">
+      <option value="Number (Ascending)">Number (Ascending)</option>
+      <option value="Number (Descending)">Number (Descending)</option>
+      <option value="Name (Ascending)">Name (Ascending)</option>
+      <option value="Name (Descending)">Name (Descending)</option>
+    </select>
+  </div>
+  <div class="selectCollection">
+    <h2 data-toggle="main">Main Collection</h2>
+    <h2 data-toggle="faves">Favorites</h2>
+  </div>
+  <div class="mainBox active">
+    <div id="mainPokemon">
+    </div>
+  </div>
+  <div class="favoriteBox">
+    <div id="favePokemon">
+    </div>
+  </div>
+  <div class="typeFooter">
+    <h2>Pokemon count based by type</h2>
+    <div id="typeCount">
+
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

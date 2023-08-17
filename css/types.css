@@ -1,0 +1,59 @@
+.pokebox {
+  padding: 20 px;
+  border-radius: 15px;
+}
+.normal {
+  background-color: #E0DECA;
+}
+.fire {
+  background-color: #E14D2A;
+}
+.water {
+  background-color: #033fcc;
+}
+.grass {
+  background-color: #0cbe0c;
+}
+.electric {
+  background-color: #F1C93B;
+}
+.flying {
+  background-color: #29c1fd;
+}
+.ice {
+  background-color: #DFF6FF;
+}
+.poison {
+  background-color: #9336B4;
+}
+
+.fighting {
+  background-color: #c56b21;
+}
+.psychic {
+  background-color: #f36b8d;
+}
+.rock {
+  background-color: #5f5241;
+}
+.ground {
+  background-color: #CC9544;
+}
+.steel {
+  background-color: #73777B;
+}
+.bug {
+  background-color: #d0e274;
+}
+.dark {
+  background-color: #1B1A17;
+}
+.fairy {
+  background-color: #FFCACC;
+}
+.dragon {
+  background-color: #898121;
+}
+.ghost {
+  background-color: #393646;
+}

@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+  .title h1 {
+    font-size: 5rem;
+  }
+  .sortBar {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .title h1 {
+    font-size: 4rem;
+  }
+  .pokeball {
+    width: 15rem;
+    height: 15rem;
+  }
+  .sortBar label {
+    font-size: 2rem;
+  }
+  .selectCollection h2,
+  .typeFooter h2 {
+    font-size: 1.3rem;
+  }
+
+  #mainPokemon,
+  #favePokemon {
+    flex-direction: column;
+    align-content: space-around;
+  }
+
+  .pokebox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .pokebox h2 {
+    font-size: 1.5rem;
+  }
+
+  .pokebox h4 {
+    font-size: 1rem;
+  }
+
+  .pokebox .pokemonPic {
+    flex-direction: row;
+  }
+
+  .pokebox .pokemonPic i {
+    align-self: center;
+  }
+
+  .pokeSprite {
+    display: block;
+  }
+
+  .pokeArtwork {
+    display: none;
+  }
+
+  .pokebox h2,
+  .pokebox h4 {
+    margin: 0;
+  }
+
+  .pokebox .typing {
+    display: block;
+    margin-left: auto;
+  }
+
+  .pokebox .typing h5 {
+    text-align: right;
+  }
+
+  #typeCount {
+    gap: 10px;
+  }
+
+  #typeCount div {
+    padding: 10px 30px;
+  }
+  
+}

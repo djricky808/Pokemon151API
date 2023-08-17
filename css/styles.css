@@ -1,0 +1,229 @@
+:root,
+select {
+  font-family: 'Russo One', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.title {
+  position: relative;
+}
+
+.title h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 7rem;
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  color: white;
+  z-index: 3;
+  text-shadow:
+    -7px -7px 5px #000,
+    7px -7px 5px #000,
+    -7px 7px 5px #000,
+    7px 7px 5px #000;
+}
+
+.pokeball {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 50%;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 50%, rgba(255, 255, 255, 1) 51%);
+  border: 20px solid black;
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.pokeballcenter {
+  text-align: center;
+  display: block;
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  border: 20px solid black;
+  width: 5rem;
+  height: 5rem;
+  z-index: 2;
+  align-self: center;
+}
+
+.pokeballline {
+  border: 20px solid black;
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.sortBar {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  gap: 40px;
+  margin: 2% auto;
+}
+
+.sortBar select {
+  font-size: 1.5rem;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 15px;
+  background-color: red;
+  color: white;
+  padding: 10px 2px;
+}
+
+.sortBar option {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+}
+
+.selectCollection {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.selectCollection h2 {
+  width: 100%;
+}
+
+.mainBox,
+.selectCollection :nth-child(1) {
+  background-color: #cccccc;
+  padding: 20px;
+}
+
+.favoriteBox,
+.selectCollection :nth-child(2) {
+  background-color: #5e0e0e;
+  padding: 20px;
+}
+
+.mainBox,
+.favoriteBox {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+#mainPokemon,
+#favePokemon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+h2,
+h4,
+h5 {
+  margin: 0 auto;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+.pokebox {
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 5px;
+}
+
+.hidePokebox {
+  display: none;
+}
+
+.pokebox .pokemonPic {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.pokebox .pokemonPic i {
+  font-size: 2rem;
+  align-self: end;
+  width: fit-content;
+}
+
+.pokebox .pokemonPic i,
+.selectCollection h2,
+.sortBar select {
+  cursor: pointer;
+}
+
+.pokebox .typing {
+  display: flex;
+  gap: 50px;
+}
+
+.pokeArtwork {
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+.pokeSprite {
+  display: none;
+  height: 50px;
+  width: 50px;
+}
+
+
+
+
+.water,
+.rock,
+.ghost,
+.poison,
+.dark,
+.selectCollection :nth-child(2) {
+  color: white;
+}
+
+.typeFooter,
+.title {
+  margin: 50px auto;
+}
+
+#typeCount {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+#typeCount div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  width: 7%;
+  border: 1px solid black;
+}
+
+#typeCount h4,
+#typeCount h5 {
+  text-align: center;
+  margin: 0;
+}
